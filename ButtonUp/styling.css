@@ -1,0 +1,31 @@
+.Search {
+    background-color:aliceblue;
+    border-color: aquamarine;
+    border-style: solid;
+    color: aquamarine;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.PlusSign {
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-style: solid;
+    color: white;
+    border-radius: 52px;
+    height: 40px;
+    width: 40px;
+}
+
+.CreateAccount {
+    background-color: royalblue;
+    color: white;
+    border-color: black;
+    box-shadow: 2px 2px black;
+    width: 150px;
+}
+
+.Buttons {
+    margin-top: 50px;
+    margin-left: 50px;
+}
