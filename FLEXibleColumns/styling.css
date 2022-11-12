@@ -1,0 +1,30 @@
+.row {
+    background-color: white;
+    color: white;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    height: 100px;
+}
+
+.col {
+    background-color: cadetblue;
+    justify-content: space-evenly;
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+}
+
+.col-2 {
+    background-color: cadetblue;
+    flex: 2;
+    margin: 20px;
+    padding: 10px;
+}
+
+.col-3 {
+    background-color: cadetblue;
+    flex: 3;
+    margin: 20px;
+    padding: 10px;
+}
