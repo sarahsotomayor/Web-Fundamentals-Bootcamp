@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <script src="script.js"></script>
+    <title>ButtonClicker</title>
+</head>
+
+<body>
+    <div class="NavContainer">
+        <div class="NavBar">
+            <h1 class="NavTitle">Dojonary</h1>
+            <input class="SearchBar" type="text" placeholder="Search">
+            <button onclick="this.innerText='Logout'" class="LoginBtn" >Login</button>
+        </div>
+    </div>
+    <div>
+        <div class="MainContainer">
+
+            <div class="LeftColumn">
+                <div class="SectionOne">
+                    <div class="WordBox">
+                        <p class="VocabWord">ninja</p>
+                        <p class="Noun">noun</p>
+                        <p class="Plural">Plural: <span class="ninjas">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="LeftBtns"> 13 likes</button>
+                    </div>
+                    <div class="Definition">
+                        <p>A practitioner skilled in the <span class="Vocab">Japanese</span> art of <span class="Vocab">ninjitsu</span></p>
+                    </div>
+                </div>
+                <div class="SectionTwo">
+                    <div class="WordBox">
+                        <p class="VocabWord">ninja</p>
+                        <p class="Noun">noun</p>
+                        <p class="Plural">Plural: <span class="ninjas">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')" class="LeftBtns"> 37 likes</button>
+                    </div>
+                    <div class="Definition">
+                        <p>A <span class="Vocab">programmer</span> who breaks down problems with <span class="Vocab">zen</span>-like focus</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="RightColumn">
+                <div class="SectionThree">
+                    <p class="AddYourDefinition">Dojonary is</p>
+                    <p class="AddYourDefinition">defined by <span class="YOU">YOU</span></p>
+                    <button onclick="this.remove()" class="RightBtn">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+body {
+    display: block;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.NavContainer {
+    background-color: lightgray;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.NavTitle {
+    margin: 0;
+}
+
+.SearchBar {
+    width: 300px;
+    height: 30px;
+    border-color: black;
+}
+
+.LoginBtn {
+    color: white;
+    background-color: blue;
+    border-color: black;
+    box-shadow: 2px 2px black;
+    height: 30px;
+    width: 60px;
+}
+
+.MainContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LeftColumn {
+    width: 600px;
+}
+
+.RightColumn {
+    display: flex;
+    width: 300px;
+}
+
+.SectionOne {
+    border: 3px solid black;
+    margin-bottom: 25px;
+    padding: 20px;
+    display: flex;
+}
+
+.SectionTwo {
+    border: 3px solid black;
+    padding: 20px;
+    display: flex;
+}
+
+.WordBox {
+    display: block;
+    justify-content: center;
+    width: 140px;
+}
+
+.Definition {
+    width: 420px;
+    padding: 60px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.SectionThree {
+    border: 3px solid black;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    display: block;
+}
+
+.LeftBtns {
+    font-size: large;
+    color: black;
+    background-color: yellow;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    width: 109px;
+    height: 44px;
+}
+
+.VocabWord {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.Noun {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.Plural {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.ninjas {
+    font-style: italic;
+}
+
+.RightBtn {
+    font-size: x-large;
+    color: black;
+    background-color: darkseagreen;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    width: 200px;
+    height: 44px;
+    margin-top: 25px;
+}
+
+.Vocab {
+    color: blue;
+    text-decoration: underline;
+}
+
+.AddYourDefinition {
+    font-size: x-large;
+    margin: 0;
+}
+
+.YOU {
+    font-weight: bolder;
+}
