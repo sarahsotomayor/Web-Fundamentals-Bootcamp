@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Likes</title>
+</head>
+<body>
+    <h1>Network</h1>
+    <p class="Feed">Your Feed</h2>
+    <div class="MainContainer">
+
+        <div class="Left">
+            <div class="Profile">
+                <img src="AvatarIcon.jpeg" alt="Avatar AvatarIcon">
+                <p class="AddAvatar">Add an avatar</p>
+                <p class="Name">James Doe</p>
+            </div>
+        </div>
+
+        <div class="Right">
+
+            <div class="Contact">
+                <div class="Container">
+                    <p class="ContactName">Niel M</p>
+                    <p class="Likes"><span id="counter1">9</span> Like(s)</p>
+                    <button onclick="Add1(counter1)"">Like</button>
+                </div>
+                <div class="ContainerTwo">
+                    <p class="Comments">I just set up this new discord bot, let me know what you all think. <span class="link">link</span></p>
+                </div>
+            </div>
+            <div class="Contact">
+                <div class="Container">
+                    <p class="ContactName">Nichole K</p>
+                    <p class="Likes"><span id="counter2">12</span> Like(s)</p>
+                    <button onclick="AddOne(counter2)">Like</button>
+                </div>
+                <div class="ContainerTwo">
+                    <p class="Comments">Just finished my <span class="link">next comic</span>, check it out.</p>
+                </div>
+            </div>
+            <div class="Contact">
+                <div class="Container">
+                    <p class="ContactName">Jim R</p>
+                    <p class="Likes"><span id="counter3">9</span> Like(s)</p>
+                    <button onclick="AddOneMore(counter3)">Like</button>
+                </div>
+                <div class="ContainerTwo">
+                    <p class="Comments">I can't stop listening to the <span class="link">new album</span> . Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </div>
+</body>
+</html>

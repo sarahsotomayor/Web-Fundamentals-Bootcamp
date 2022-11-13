@@ -1,0 +1,122 @@
+body {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.Feed {
+    font-size: xx-large;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.Contact {
+    border: 5px solid black;
+}
+
+.MainContainer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Left {
+    border: 5px solid black;
+    display: flex;
+    justify-content: flex-start;
+    width: 250px;
+    height: 400px;
+    margin-right: 25px;
+}
+
+.Profile {
+    width: 250px;
+    height: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 40px;
+    align-self: center;
+}
+
+.AddAvatar {
+    color: blue;
+    text-decoration: underline;
+}
+
+.Name {
+    font-size: xx-large;
+}
+
+.Right {
+
+}
+
+.Contact {
+    margin-bottom: 10px;
+    padding: 40px;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 140px;
+}
+
+.ContactName {
+    align-self: center;
+    margin: 0;
+    font-size: xx-large;
+}
+
+p {
+    align-self: center;
+}
+
+button {
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    color: black;
+    background-color: rgb(255, 208, 0);
+    border-color: black;
+    border-width: 3px;
+    box-shadow: 3px 3px black;
+}
+
+.ContainerTwo {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.Likes {
+    font-size: x-large;
+}
+
+.Comments {
+    font-size: larger;
+}
