@@ -1,0 +1,60 @@
+body {
+    background-color: lightcyan;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    display: block;
+}
+
+p.Heading {
+    color: rgb(70, 75, 81);
+    text-align: center;
+    font-size: 100px;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+.Blue {
+    background-color: aqua;
+    padding: 80px;
+    margin-bottom: 40px;
+}
+
+.TopImages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pink {
+    background-color: rgb(221, 86, 167);
+    padding: 80px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: 40px;
+}
+
+.MiddleImages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Purple {
+    background-color: darkviolet;
+    padding: 80px;
+    margin-bottom: 40px;
+}
+
+.BottomImages {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 600px;
+}
+
